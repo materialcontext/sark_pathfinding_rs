@@ -14,7 +14,7 @@ glam = { version = "0.22" }
 smallvec = "1.7.0"
 ahash = "0.7.6"
 arrayvec = "0.7.2"
-sark_grids = {path="../sark_grids_rs", version = "0.5.5"}
+sark_grids = {git = "https://github.com/sarkahn/sark_grids_rs.git", version = "0.5.5"}
 
 
 [dev-dependencies]
