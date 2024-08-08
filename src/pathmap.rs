@@ -36,7 +36,7 @@ impl PathMap2d {
     /// Create a new PathMap with all values set to false (no obstacles).
     pub fn new(size: impl Size2d) -> Self {
         Self {
-            grid: Grid::default(size),
+            grid: Grid::new(size),
         }
     }
 

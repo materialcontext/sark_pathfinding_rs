@@ -10,7 +10,7 @@ description = "A simple implementation of the astar pathfinding algorthim from r
 keywords = ["bevy", "pathfinding", "2d", "astar"]
 
 [dependencies]
-glam = { version = "0.22" }
+glam = { version = "0.25" }
 smallvec = "1.7.0"
 ahash = "0.7.6"
 arrayvec = "0.7.2"
@@ -18,11 +18,6 @@ sark_grids = {git = "https://github.com/sarkahn/sark_grids_rs.git", version = "0
 
 
 [dev-dependencies]
-bevy = {path="../bevy", version = "0.9", default-features = false, features = ["png", "bevy_winit", "render"]}
-bevy_ascii_terminal = {path="../bevy_ascii_terminal", version="0.12" }
+bevy = { version = "0.14.1" }
+bevy_ascii_terminal = { version="0.15" }
 noise = "0.7.0"
-
-[features]
-dev = [
-    "bevy/dynamic",
-]
