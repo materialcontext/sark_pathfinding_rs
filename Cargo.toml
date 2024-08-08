@@ -10,7 +10,7 @@ description = "A simple implementation of the astar pathfinding algorthim from r
 keywords = ["bevy", "pathfinding", "2d", "astar"]
 
 [dependencies]
-glam = { version = "0.25" }
+glam = { version = "0.27" }
 smallvec = "1.7.0"
 ahash = "0.7.6"
 arrayvec = "0.7.2"
