@@ -40,6 +40,12 @@ impl PathMap2d {
         }
     }
 
+    pub fn default() -> Self {
+        Self {
+            grid: Grid::new([50, 50])
+        }
+    }
+
     pub fn is_obstacle(&self, p: impl GridPoint) -> bool {
         self[p]
     }
