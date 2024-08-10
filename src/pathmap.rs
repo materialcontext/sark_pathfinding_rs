@@ -28,6 +28,7 @@ pub trait PathMap {
 ///
 /// let path = pf.astar(&map, [4,4], [10,10]).unwrap();
 /// ```
+#[derive(Default)]
 pub struct PathMap2d {
     grid: Grid<bool>,
 }
